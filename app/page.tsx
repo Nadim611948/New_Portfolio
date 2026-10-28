@@ -745,8 +745,8 @@ export default function Home() {
         'Employer portal for publishing listings and applicant reviews',
         'Role-based permissions for system administration'
       ],
-      liveUrl: 'https://jobnest-demo.vercel.app',
-      githubUrl: 'https://github.com/nadimmostafa/jobnest'
+      liveUrl: 'https://job-portal-5d53a.web.app/',
+      githubUrl: 'https://github.com/Nadimmo/Job-Portal-Client-side-'
     },
     {
       id: 'travel-guru',
@@ -762,8 +762,8 @@ export default function Home() {
         'JWT-authenticated personal booking portal and receipt logs',
         'Admin dashboard for package creation and booking management'
       ],
-      liveUrl: 'https://travelguru-demo.vercel.app',
-      githubUrl: 'https://github.com/nadimmostafa/travel-guru'
+      liveUrl: 'https://travel-guru-a638f.web.app/',
+      githubUrl: 'https://github.com/Nadimmo/M9-Travel-Guru'
     },
     {
       id: 'the-daily',
@@ -779,8 +779,8 @@ export default function Home() {
         'Dark/Light reader modes optimized for reading comfort',
         'Responsive layout across desktop, tablet, and mobile'
       ],
-      liveUrl: 'https://thedaily-demo.vercel.app',
-      githubUrl: 'https://github.com/nadimmostafa/the-daily'
+      liveUrl: 'https://blogging-platform-5850d.web.app/',
+      githubUrl: 'https://github.com/Nadimmo/Blogging-Platform-Client-side-'
     },
     {
       id: 'survey-pro',
@@ -796,8 +796,8 @@ export default function Home() {
         'Real-time response charts and visual statistics',
         'Data exports to CSV and response analytics'
       ],
-      liveUrl: 'https://surveypro-demo.vercel.app',
-      githubUrl: 'https://github.com/nadimmostafa/survey-pro'
+      liveUrl: 'https://assignment-12-6f33b.web.app/',
+      githubUrl: 'https://github.com/Nadimmo/M9-Assignment-12-ClientSide'
     },
     {
       id: 'cyclist-club',
@@ -813,8 +813,8 @@ export default function Home() {
         'Club news feed and interactive discussion boards',
         'Mobile-optimized touch layout for on-the-go cyclists'
       ],
-      liveUrl: 'https://cyclistclub-demo.vercel.app',
-      githubUrl: 'https://github.com/nadimmostafa/cyclist-club'
+      liveUrl: 'https://cyclist-club.web.app/',
+      githubUrl: 'https://github.com/Nadimmo/Cyclist-Club-Client-Side'
     },
     {
       id: 'beauty-parlor',
@@ -830,8 +830,8 @@ export default function Home() {
         'Verified customer rating and review system',
         'Admin schedule calendar and revenue tracker'
       ],
-      liveUrl: 'https://beautyparlor-demo.vercel.app',
-      githubUrl: 'https://github.com/nadimmostafa/beauty-parlor'
+      liveUrl: 'https://beauty-parlour-ten.vercel.app/',
+      githubUrl: 'https://github.com/Nadimmo/Beauty-Parlar-Client-side-'
     }
   ];
 
@@ -866,7 +866,7 @@ export default function Home() {
         <div className="max-w-6xl mx-auto px-6 flex items-center justify-between">
           <a href="#" className="flex items-center gap-2.5 group focus:outline-none">
             <span className="w-9 h-9 rounded-xl bg-white text-black font-extrabold flex items-center justify-center text-sm shadow-md transition-transform group-hover:scale-105">
-              NM
+              <img src="https://i.ibb.co.com/MkVtbRN1/photo-2026-02-15-15-53-32.jpg" alt="MD NADIM MOSTOFA" className="w-full h-full object-cover rounded-xl" />
             </span>
             <div className="flex flex-col">
               <span className="font-bold text-base tracking-tight text-white group-hover:text-zinc-300 transition-colors leading-none">
@@ -981,7 +981,7 @@ export default function Home() {
 
               <div className="grid grid-cols-3 gap-4 pt-6 border-t border-zinc-800/80">
                 <div className="p-3 rounded-xl bg-zinc-900/40 border border-zinc-800/80">
-                  <div className="text-2xl font-bold text-white">6+</div>
+                  <div className="text-2xl font-bold text-white">20+</div>
                   <div className="text-xs text-zinc-400 font-medium mt-0.5">Projects Built</div>
                 </div>
                 <div className="p-3 rounded-xl bg-zinc-900/40 border border-zinc-800/80">
@@ -995,10 +995,10 @@ export default function Home() {
               </div>
 
               <div className="flex items-center gap-3 pt-2">
-                <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="p-2.5 rounded-xl bg-zinc-900 border border-zinc-800 text-zinc-400 hover:text-white transition-colors">
+                <a href="https://github.com/Nadimmo" target="_blank" rel="noopener noreferrer" className="p-2.5 rounded-xl bg-zinc-900 border border-zinc-800 text-zinc-400 hover:text-white transition-colors">
                   <Github className="w-4 h-4" />
                 </a>
-                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="p-2.5 rounded-xl bg-zinc-900 border border-zinc-800 text-zinc-400 hover:text-white transition-colors">
+                <a href="https://www.linkedin.com/in/md-nadim-mostofa-931a48247" target="_blank" rel="noopener noreferrer" className="p-2.5 rounded-xl bg-zinc-900 border border-zinc-800 text-zinc-400 hover:text-white transition-colors">
                   <Linkedin className="w-4 h-4" />
                 </a>
                 <a href="mailto:nadimmostafa334@gmail.com" className="p-2.5 rounded-xl bg-zinc-900 border border-zinc-800 text-zinc-400 hover:text-white transition-colors">
@@ -1119,7 +1119,7 @@ export default function Home() {
                     </div>
                   </TiltCard>
 
-                  <TiltCard>
+                  {/* <TiltCard>
                     <div className="p-6 rounded-2xl bg-zinc-900/60 border border-zinc-800">
                       <div className="flex flex-col sm:flex-row justify-between sm:items-center gap-2 mb-2">
                         <h3 className="text-lg font-bold text-white">SSC, Civil Drafting with CAD</h3>
@@ -1128,7 +1128,7 @@ export default function Home() {
                       <p className="text-sm text-zinc-400 font-medium">Rangpur Technical School & College</p>
                       <p className="text-xs text-zinc-400 mt-2">Precision drafting, design structure, and planning logic.</p>
                     </div>
-                  </TiltCard>
+                  </TiltCard> */}
                 </div>
               )}
 
@@ -1147,6 +1147,22 @@ export default function Home() {
                       </div>
                       <p className="text-sm text-zinc-300 leading-relaxed">
                         Built full-stack applications with React, Express, Node.js, MongoDB, Firebase authentication, JWT authorization, and payment gateways.
+                      </p>
+                    </div>
+                  </TiltCard>
+                  <TiltCard>
+                    <div className="p-6 rounded-2xl bg-zinc-900/60 border border-zinc-800">
+                      <div className="flex items-center gap-3 mb-3">
+                        <div className="w-10 h-10 rounded-xl bg-white text-black font-extrabold flex items-center justify-center text-sm">
+                          EI
+                        </div>
+                        <div>
+                          <h3 className="text-lg font-bold text-white">European IT Institute</h3>
+                          <p className="text-xs text-zinc-400">Industrial Training</p>
+                        </div>
+                      </div>
+                      <p className="text-sm text-zinc-300 leading-relaxed">
+                        Built JavaScript applications with modern libraries like React.js
                       </p>
                     </div>
                   </TiltCard>
